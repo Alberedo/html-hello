@@ -1,0 +1,58 @@
+
+body{
+    align-items: center;
+    background-color: #c7c7c7;
+    margin: 0px;
+}
+.header{
+    background-color: white;
+    text-align: center;
+    padding:10px;
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    background-color: transparent;
+    width: 500px;
+    align-items: center;
+    margin-inline: auto;
+    margin-block: 40px;  
+    gap:40px;  
+}
+
+.photo{
+    width:100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.photo-header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-inline: 5px;
+}
+
+.photo-title{
+    font-size: 25px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.photo-description{
+    min-height: 40px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    display:flex;
+    align-items:center;
+}
